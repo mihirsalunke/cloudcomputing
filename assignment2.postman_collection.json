@@ -1,0 +1,944 @@
+{
+	"info": {
+		"_postman_id": "48eba754-9b4e-4e89-9347-b080e53f6a30",
+		"name": "assignment2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/announcements",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"announcementId\": \"a\",\n\t\"announcementText\": \"I am announcement\",\n\t\"boardId\":\"b\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/announcements",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"announcements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/announcements",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"announcementId\": \"a\",\n\t\"announcementText\": \"I am announcement\",\n\t\"boardId\":\"b\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/announcements",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"announcements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/announcements",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"boardId\": \"b1\",\n\t\"courseId\": \"c1\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/announcements",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"announcements"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards/b",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"boardId\": \"b1\",\n\t\"courseId\": \"c1\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards/b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"boards",
+						"b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards/b",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"boardId\": \"b1\",\n\t\"courseId\": \"c1\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards/b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"boards",
+						"b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards/b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"boardId\": \"b\",\n\t\"courseId\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards/b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"boards",
+						"b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"boardId\": \"b\",\n\t\"courseId\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"boards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\": \"a.b\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/boards",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"boards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\": \"a.b\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses",
+						"a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a/roster/a.b",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\": \"a.b\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a/roster/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses",
+						"a",
+						"roster",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a/roster/a.b",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"studentId\": \"a.b\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a/roster/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses",
+						"a",
+						"roster",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a/roster",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"courseName\": \"f\",\n\t\"boardId\": \"a\",\n\t\"professorId\": \"xy\",\n\t\"taId\": \"ea\",\n\t\"department\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a/roster",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses",
+						"a",
+						"roster"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"courseName\": \"f\",\n\t\"boardId\": \"a\",\n\t\"professorId\": \"xy\",\n\t\"taId\": \"ea\",\n\t\"department\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses",
+						"a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"courseName\": \"f\",\n\t\"boardId\": \"a\",\n\t\"professorId\": \"x\",\n\t\"taId\": \"e\",\n\t\"department\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses/a",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses",
+						"a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"courseName\": \"f\",\n\t\"boardId\": \"a\",\n\t\"professorId\": \"x\",\n\t\"taId\": \"e\",\n\t\"department\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"f\",\n\t\"lastName\": \"a\",\n\t\"department\": \"x\",\n\t\"image\": \"e\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/courses",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students/a.b",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"f\",\n\t\"lastName\": \"a\",\n\t\"department\": \"x\",\n\t\"image\": \"e\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"students",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students/a.b",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"f\",\n\t\"lastName\": \"a\",\n\t\"department\": \"x\",\n\t\"image\": \"e\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"students",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students/a.b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"b\",\n\t\"lastName\": \"a\",\n\t\"department\": \"d\",\n\t\"image\": \"e\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"students",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"b\",\n\t\"lastName\": \"a\",\n\t\"department\": \"d\",\n\t\"image\": \"e\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"b\",\n\t\"lastName\": \"a\",\n\t\"department\": \"d\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/students",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors/a.b",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"b\",\n\t\"lastName\": \"a\",\n\t\"department\": \"d\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"professors",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors/a.b",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"b\",\n\t\"lastName\": \"a\",\n\t\"department\": \"d\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"professors",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors/a.b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"a\",\n\t\"lastName\": \"b\",\n\t\"department\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors/a.b",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"professors",
+						"a.b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"firstName\": \"a\",\n\t\"lastName\": \"b\",\n\t\"department\": \"c\"\n}"
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://courseservice-env.qrsixw8jmv.us-west-2.elasticbeanstalk.com/webapi/professors",
+					"protocol": "http",
+					"host": [
+						"courseservice-env",
+						"qrsixw8jmv",
+						"us-west-2",
+						"elasticbeanstalk",
+						"com"
+					],
+					"path": [
+						"webapi",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
